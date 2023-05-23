@@ -13,7 +13,8 @@ export default function ChatMessage({text,name,logo,email,user}) {
     </div>
 
       ): (
-        <span className="d-flex  align-items-startmessage-left"> 
+        // <div className="message-name">{name}</div>
+        <span className="d-flex   message-left"> 
          <img src={logo} alt='logo' className="logo-icon" />
          <span className="message-text">{text}</span>
         </span>

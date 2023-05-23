@@ -12,21 +12,24 @@
    max-height: 450px;
   overflow-y: auto;
   border-radius: 25px;
-  color:gray; align-items: flex-end;
+  color:rgb(0, 0, 0); align-items: flex-end;
   
   }
     .message-right {
-  background: #91fbff; 
+  background: #3ccdd2; 
   border-radius: 25px;
   padding: 0.5cm 1em !important; 
   margin: 0.1em;
   }
   .message-left{ 
-    background: aliceblue;
+    background: #53f87a ;
    border-radius: 25px;
    padding: 0.5em 1em !important; 
     margin: 1em;
     align-items: start;
+    width: 187.85px;
+    height: 71.97px;
+
   }
     
     .message-text 
