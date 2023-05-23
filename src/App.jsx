@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Chat from "./components/Chat";
 import { signInWithPopup } from "firebase/auth";
 import {auth,provider} from "./config/firebase"
